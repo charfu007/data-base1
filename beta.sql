@@ -1,4 +1,4 @@
-                                    --  tabla countries
+--  tabla countries
 CREATE TABLE countries (
     id SERIAL PRIMARY KEY,
     name VARCHAR(100) NOT NULL,
@@ -71,3 +71,4 @@ INSERT INTO cities (name, code, abrv, department_id) VALUES
 -- Insertar usuario con ciudad relacionad
 INSERT INTO users (id_number, firstname, lastname, mobile_number, email, password, city_id)
 VALUES ('789654123', 'Juan', 'Pérez', '3001234567', 'juan.perez@email.com', 'password123', 1);
+--completado 
