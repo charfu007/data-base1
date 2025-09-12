@@ -1,4 +1,4 @@
---  tabla countries
+-- contruies
 CREATE TABLE countries (
     id SERIAL PRIMARY KEY,
     name VARCHAR(100) NOT NULL,
